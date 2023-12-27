@@ -1,3 +1,10 @@
+# Description
+ Makes a Sql table with data (  from olx.com.pk about a search querry.
+ Helpful in gathering data about a specific product on olx.
+ - Search: "Ipad mini 6" ( tableName= "Ipad_mini_6" )
+ > > **|   id      |   Title   |   Price   |   Location    |   CreatedDate |   Website |**
+ 
+
 # Usage and Installation
 ## Installations:
 
