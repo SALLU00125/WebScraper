@@ -1,7 +1,26 @@
+# Usage and Installation
+## Installations:
+
+- Make sure sql is installed ( mysql, mariadb etc) and below credentials are valid:
+> 1. host
+> 2. user
+> 3. password
+> 5. databaseName
+
+- Install required python packages
+> pip install -r requirements.txt
+
+## Usage:
+- Change whatever querry search u like in olx in by make editing in "DataWrapped.json" for "search": $keyword e.g:
+> "search": "ipad mini 6"
+
+## Results:
+ - Results saved in sql table like:
+> **|   id      |   Title   |   Price   |   Location    |   CreatedDate |   Website |**
 
 
 
-# TestOlx Class
+## TestOlx Class
 This class is used to scrape data from the OLX website. It contains methods for loading JSON data, mapping selectors, extracting IDs from URLs, converting relative time to datetime, accessing and creating tables in a database, closing a database, setting up and tearing down methods, clicking elements until they are hidden or disabled, removing elements, and running the main test.
 
 ## Methods
