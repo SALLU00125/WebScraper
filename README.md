@@ -5,7 +5,7 @@
 > 1. host
 > 2. user
 > 3. password
-> 5. databaseName
+> 4. databaseName
 
 - Install required python packages
 > pip install -r requirements.txt
@@ -18,7 +18,8 @@
  - Results saved in sql table like:
 > **|   id      |   Title   |   Price   |   Location    |   CreatedDate |   Website |**
 
-
+- search result of all ads of querry search "ipad mini 6"
+![Results Image](resources/Results.png)
 
 ## TestOlx Class
 This class is used to scrape data from the OLX website. It contains methods for loading JSON data, mapping selectors, extracting IDs from URLs, converting relative time to datetime, accessing and creating tables in a database, closing a database, setting up and tearing down methods, clicking elements until they are hidden or disabled, removing elements, and running the main test.
